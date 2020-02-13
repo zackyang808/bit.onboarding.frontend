@@ -1,0 +1,20 @@
+.bit-slider .ant-slider-track, .bit-slider:hover .ant-slider-track {
+  background-color: black;
+}
+
+.bit-slider .ant-slider-handle, .bit-slider:hover .ant-slider-handle, .bit-slider:hover .ant-slider-handle:not(.ant-tooltip-open) {
+  border-color: black;
+}
+
+.bit-slider .ant-slider-handle:focus {
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.bit-logo img {
+  width: 4em;
+}
+
+.bit-logo.nav img {
+  width: unset;
+  height: 32px;
+}
