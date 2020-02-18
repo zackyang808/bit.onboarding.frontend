@@ -784,4 +784,32 @@ header .navigation .nav-btn.nav-btn-logout {
   margin-right: 10px;
 }
 
+/* Blocks Navigation
+ * ----------------------------------------------- */
+.block-nav-grid .column
+{
+  padding: 2px !important;
+}
+
+.block-box
+{
+  width: 100%;
+  padding-top: 100%;
+  position: relative;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  border-radius: 0.2rem;
+}
+
+.block-text
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  cursor: pointer;
+}
 /*# sourceMappingURL=style.css.map */

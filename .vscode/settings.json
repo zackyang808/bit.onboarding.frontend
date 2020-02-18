@@ -1,0 +1,8 @@
+{
+    "appService.deploySubpath": "",
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/a102c519-1185-4e2f-9545-56206c3c3513/resourceGroups/IC-Intern/providers/Microsoft.Web/sites/bit-app-zack"
+}

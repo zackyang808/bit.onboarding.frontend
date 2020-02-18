@@ -42,7 +42,7 @@ class CountryWrapper extends React.PureComponent {
     });
   }
 
-  loadCountryById = async () => {debugger;
+  loadCountryById = async () => {
     try {
       const response = await fetchAPI(
         `${ENDPOINTS.GET_COUNTRY}?countryId=${this.props.id}`
@@ -58,9 +58,9 @@ class CountryWrapper extends React.PureComponent {
         isOwner: response.country.ownerAddress == this.props.address
       });
     } catch (error) {
-      // Notification.displayErrorMessage(error);
+      Notification.displayErrorMessage(error.message);
 
-      // navigate("/dapp/login");
+      navigate("/dapp/login");
     }
   }
 

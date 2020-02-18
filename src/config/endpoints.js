@@ -1,5 +1,6 @@
 // export const BASE_URL = process.env.REACT_APP_DEV_URL;
-export const BASE_URL = "http://localhost:51701";
+// export const BASE_URL = "http://localhost:51701";
+export const BASE_URL = "http://bitonboarding-zack.azurewebsites.net";
 
 export default {
   SIGN_UP: "/authentication/authentication/signup",

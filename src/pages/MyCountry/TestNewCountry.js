@@ -18,6 +18,7 @@ import { AuthConnect } from "../AuthWrapper";
 import ENDPOINTS from "../../config/endpoints";
 import { fetchAPI } from "../../utils/FetchUtil";
 import { Spin } from "antd";
+import Notification from "../Notification";
 
 class TestNewCountry extends Component {
   state = {
@@ -56,7 +57,7 @@ class TestNewCountry extends Component {
 
     try {
       await Promise.all([this.loadCountryById(), this.loadCountryBlockDetails()]);
-    } catch (error) {debugger;
+    } catch (error) {
       Notification.displayErrorMessage(error.message);
 
       navigate("/dapp/login");
